@@ -282,7 +282,8 @@ li img{
 	height:5vh;
 }
 .contact>p{
-	margin-left:40%;
+	/*margin-left:40%;*/
+    text-align: center;
 	font-family:'satisfy',cursive;
 	font-size:250%;
 	animation: colour 4s infinite alternate;
@@ -309,13 +310,22 @@ li img{
 }
 
 .contact img{
-	height:20vh;
-	width:14%;
-	margin:5%;
+    height: auto;
+    width: 72px;
+    margin: 5px;
+    border: 4px solid transparent;
+    border-radius: 50%;
+}
+.contact img:hover{
+    border: 4px solid white;
 }
 
 .logos{
-	display:inline-block;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
 }
 footer{
 	text-align:center;
@@ -409,7 +419,7 @@ button a{
 	}
 	.skills img{
 	width:21%;
-	height:14vh;
+	/*height:14vh;*/
 	}
 	li img{
 		height:3vh;
